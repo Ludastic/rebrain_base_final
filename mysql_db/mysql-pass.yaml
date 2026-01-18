@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  labels:
+    app: db
+  name: mysql-pass
+  namespace: db
+type: Opaque
+data:
+  password: bXlzcWwtcGFzc3dvcmQ=

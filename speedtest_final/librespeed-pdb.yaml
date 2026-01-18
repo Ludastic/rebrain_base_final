@@ -1,0 +1,12 @@
+apiVersion: policy/v1
+kind: PodDisruptionBudget
+metadata:
+  name: librespeed-pdb
+  namespace: final
+  labels:
+    app.kubernetes.io/instance: librespeed
+spec:
+  minAvailable: 1
+  selector:
+    matchLabels:
+      app: librespeed
