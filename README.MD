@@ -1,1 +1,1 @@
-<h1>solution for final exercise of k8s base course from rebrain.</h1>
+<h1>solution for the final exercise of the k8s base course from Rebrain.</h1>
